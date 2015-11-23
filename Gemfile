@@ -35,6 +35,8 @@ end
 # Include bootstrap
 gem 'bootstrap-sass', '~> 3.3.5'
 
+# Use devise for authentication
+gem 'devise'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
