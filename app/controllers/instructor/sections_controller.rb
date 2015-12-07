@@ -10,6 +10,8 @@ class Instructor::SectionsController < ApplicationController
   	redirect_to instructor_course_path(@course)
   end
 
+
+
   private
 
   def section_params
