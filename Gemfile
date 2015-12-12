@@ -41,6 +41,19 @@ gem 'devise'
 # Use simple_form
 gem 'simple_form'
 
+# HTML beautifier
+gem 'htmlbeautifier'
+
+# Carrierwave for uploading files
+gem 'carrierwave'
+
+# Figaro for securing AWS 
+gem 'figaro', '>= 1.0.0'
+
+# Use fog to configure CarrierWave with AWS
+gem 'fog', '~> 1.3.1'
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
