@@ -47,11 +47,14 @@ gem 'htmlbeautifier'
 # Carrierwave for uploading files
 gem 'carrierwave'
 
-# Figaro for securing AWS 
+# Figaro for securing AWS
 gem 'figaro', '>= 1.0.0'
 
 # Use fog to configure CarrierWave with AWS
 gem 'fog', '~> 1.3.1'
+
+# Use MiniMagick to reach ImageMagick for image resizing
+gem 'mini_magick', '~> 4.3.1'
 
 
 # Use ActiveModel has_secure_password
