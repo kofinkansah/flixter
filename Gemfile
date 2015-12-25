@@ -62,6 +62,8 @@ gem 'stripe'
 # Use ranked-model for ordering items in database
 gem 'ranked-model'
 
+# Use jQuery UI
+gem 'jquery-ui-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
