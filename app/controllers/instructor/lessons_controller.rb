@@ -14,7 +14,7 @@ class Instructor::LessonsController < ApplicationController
 
   def update
     current_lesson.update_attributes(lesson_params)
-    render :text => 'Updated!'
+    render :text => 'updated!' #for javascript, user doesn't see
   end
 
 
