@@ -30,6 +30,7 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">  
                 <li><%=link_to 'See all Courses', courses_path %></li>
+                <li><%=link_to 'Teach a Course', new_instructor_course_path %></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
                 <% if user_signed_in? %>
@@ -72,7 +73,7 @@
         <br />
         <%= link_to 'Careers', '#' %>
         <br />
-        <%= link_to 'Privacy Policy', '#' %>
+        <%= link_to 'Privacy Policy', privacy_path %>
       </div>
       <div class="col-xs-12 col-sm-3">
         <b>Contact</b>
